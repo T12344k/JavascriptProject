@@ -8,7 +8,7 @@ var outcome = [];
 // looping through words array and checking for anagram
 for (var i = 0; i < words.length; i++) {
     if (words[i].toLowerCase().split("").sort().join("") == string1.toLowerCase().split("").sort().join("")) {
-    	// inserting in hello array
+    	// inserting in  array
         outcome.push(words[i])
 
     }
